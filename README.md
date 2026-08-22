@@ -1,29 +1,41 @@
-# Quantitative Analysis, Alternative Data & Data Science
+# Hi, I'm Jaikrit
 
-I build transparent, testable analytical tools for financial decisions and empirical research. A recurring theme is **alternative data**: triangulating imperfect signals across independent sources, validating proxies and provenance, and turning them into decision-useful evidence without overstating certainty.
+I like working on questions where the data is messy and no single source tells the whole story. Most of my projects sit somewhere between quantitative finance, alternative data, and applied statistics.
 
-## Featured projects
+By **alternative data**, I mean using imperfect sources together—cash flows, sensor logs, weather records, evapotranspiration, fund data, or flood thresholds—and being clear about what they can and cannot tell us.
 
-- **[Private Markets Fund Performance & Fee Comparison Framework](https://fundperformanceframework.streamlit.app/)** — a Python/Streamlit decision system using dated cash flows, XIRR and investment multiples, deterministic scenarios, exact Shapley attribution, decision-switch thresholds, paired Monte Carlo simulation, sensitivity diagnostics, automated tests, and Excel reconciliation.
-- **[Mutual Fund Ranking Pipeline](https://github.com/jbhattac2323/mutual-fund-ranking-pipeline)** — a privacy-safe Python case study in eligibility screening, category-relative percentile scoring, rolling-return/Sharpe weighting, exclusion auditing, and deterministic methodology tests.
-- **[Regression & Time-Series Forecasting](https://github.com/jbhattac2323/regression-time-series-forecasting)** — multivariate regression, transformations, residual diagnostics, AIC-based model selection, seasonal decomposition, ARIMA models, and prediction intervals in R.
-- **[Environmental Sensor Quality Control](https://github.com/jbhattac2323/environmental-sensor-quality-control)** — a rule-based R pipeline that converts raw station telemetry into reliability evidence through physical bounds, sensor state, missingness, and timing checks.
-- **[Golf-Course Water Sustainability Through Alternative Data](https://github.com/jbhattac2323/evapotranspiration-land-cover-analysis)** — triangulates site-level evapotranspiration, NOAA weather, land-cover comparisons, and cross-region benchmarks to study seasonal water-demand signals while distinguishing proxy evidence from measured irrigation use.
-- **[Flood-Stage Monitoring](https://github.com/jbhattac2323/flood-stage-monitoring)** — threshold-crossing and exceedance analysis for timestamped river-gauge observations.
+I'm building this portfolio for quantitative-analyst roles and data-science graduate programs.
 
-See the **[complete quantitative portfolio index](https://github.com/jbhattac2323/quantitative-analysis-portfolio)** for project context, methods, limitations, and the broader technical toolkit.
+## The main projects
 
-## Methods and tools
+### [Private Markets Fund Comparison](https://fundperformanceframework.streamlit.app/)
 
-Python · R · pandas · NumPy · Streamlit · ggplot2 · alternative-data research · data triangulation · proxy validation · regression diagnostics · time-series analysis · peer-relative ranking · Monte Carlo simulation · financial cash-flow modeling · data-quality validation · unit/integration/regression testing · Docker · GitHub Actions
+My largest project. It compares private-market funds using dated cash flows, XIRR, investment multiples, scenarios, fee analysis, Monte Carlo simulation, and Excel checks. The point is not to predict returns. It is to show how assumptions about timing, fees, and terminal value change the decision.
 
-## How I approach analytical work
+### [Mutual Fund Ranking Pipeline](https://github.com/jbhattac2323/mutual-fund-ranking-pipeline)
 
-- Triangulate independent sources instead of treating one dataset as ground truth.
-- Test whether a proxy is decision-relevant and state what it cannot measure.
-- Separate data validation from modeling.
-- Prefer interpretable methods and visible reconciliation checks.
-- Distinguish exploratory findings from causal or predictive claims.
-- Make results reproducible enough for another analyst to audit.
+A small Python ranking engine built from a larger fund-finder idea. It filters funds, scores rolling return and Sharpe ratio within peer groups, handles ties, and explains why a fund was excluded. The public version uses synthetic data.
 
-> Course exercises are labeled as instructional work. Independent projects emphasize reusable architecture, tests, and decision-focused communication.
+### [Golf Courses, Climate, and Water-Use Signals](https://github.com/jbhattac2323/evapotranspiration-land-cover-analysis)
+
+My clearest alternative-data project. I combined evapotranspiration, NOAA weather, land-cover comparisons, and two very different climates to study golf-course water-demand signals. ET is a useful proxy here, but it is not the same as measured irrigation.
+
+### [Regression and Time-Series Forecasting](https://github.com/jbhattac2323/regression-time-series-forecasting)
+
+An R project covering regression diagnostics, transformations, model selection, seasonal decomposition, AR models, and forecast intervals.
+
+## Other work
+
+- [Environmental sensor quality control](https://github.com/jbhattac2323/environmental-sensor-quality-control)
+- [Flood-stage monitoring](https://github.com/jbhattac2323/flood-stage-monitoring)
+- [Climate, emissions, and space-data visualization](https://github.com/jbhattac2323/climate-emissions-visualization)
+- [Introductory Python projects](https://github.com/jbhattac2323/intro-python-course-projects)
+- [Full project index](https://github.com/jbhattac2323/quantitative-analysis-portfolio)
+
+## How I work
+
+- Check the data before trusting the model.
+- Use comparison groups and independent sources when one dataset is not enough.
+- Keep assumptions visible.
+- Prefer methods I can explain and test.
+- Say when a result is exploratory instead of pretending it is causal.
