@@ -1,4 +1,4 @@
-# Hi, I'm Jaikrit
+# Hi, I'm Jaikrit!
 
 I like working on questions where the data is messy and no single source tells the whole story. Most of my projects sit somewhere between quantitative finance, alternative data, and applied statistics.
 
