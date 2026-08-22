@@ -16,7 +16,7 @@ My largest project. It compares private-market funds using dated cash flows, XIR
 
 A small Python ranking engine built from a larger fund-finder idea. It filters funds, scores rolling return and Sharpe ratio within peer groups, handles ties, and explains why a fund was excluded. The public version uses synthetic data.
 
-### [Golf Courses, Climate, and Water-Use Signals](https://github.com/jbhattac2323/evapotranspiration-land-cover-analysis)
+### [Golf Courses, Climate, and Water-Use Signals](https://github.com/jbhattac2323/golf-course-water-signals)
 
 My clearest alternative-data project. I combined evapotranspiration, NOAA weather, land-cover comparisons, and two very different climates to study golf-course water-demand signals. ET is a useful proxy here, but it is not the same as measured irrigation.
 
