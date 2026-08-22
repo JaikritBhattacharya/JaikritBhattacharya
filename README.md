@@ -5,6 +5,7 @@ I build transparent, testable analytical tools for financial decisions, statisti
 ## Featured projects
 
 - **[Private Markets Fund Performance & Fee Comparison Framework](https://fundperformanceframework.streamlit.app/)** — a Python/Streamlit decision system using dated cash flows, XIRR and investment multiples, deterministic scenarios, exact Shapley attribution, decision-switch thresholds, paired Monte Carlo simulation, sensitivity diagnostics, automated tests, and Excel reconciliation.
+- **[Mutual Fund Ranking Pipeline](https://github.com/jbhattac2323/mutual-fund-ranking-pipeline)** — a privacy-safe Python case study in eligibility screening, category-relative percentile scoring, rolling-return/Sharpe weighting, exclusion auditing, and deterministic methodology tests.
 - **[Regression & Time-Series Forecasting](https://github.com/jbhattac2323/regression-time-series-forecasting)** — multivariate regression, transformations, residual diagnostics, AIC-based model selection, seasonal decomposition, ARIMA models, and prediction intervals in R.
 - **[Environmental Sensor Quality Control](https://github.com/jbhattac2323/environmental-sensor-quality-control)** — a rule-based R pipeline for physical bounds, sensor tilt, battery state, missingness, and sampling-interval validation.
 - **[Evapotranspiration & Land-Cover Analysis](https://github.com/jbhattac2323/evapotranspiration-land-cover-analysis)** — an exploratory time-series study joining decomposed ET measurements to monthly climate data.
@@ -14,7 +15,7 @@ See the **[complete quantitative portfolio index](https://github.com/jbhattac232
 
 ## Methods and tools
 
-Python · R · pandas · NumPy · Streamlit · ggplot2 · regression diagnostics · time-series analysis · Monte Carlo simulation · financial cash-flow modeling · data-quality validation · unit/integration/regression testing · Docker · GitHub Actions
+Python · R · pandas · NumPy · Streamlit · ggplot2 · regression diagnostics · time-series analysis · peer-relative ranking · Monte Carlo simulation · financial cash-flow modeling · data-quality validation · unit/integration/regression testing · Docker · GitHub Actions
 
 ## How I approach analytical work
 
