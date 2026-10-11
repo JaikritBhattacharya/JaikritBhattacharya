@@ -1,41 +1,57 @@
-# Hi, I'm Jaikrit!
+# Jaikrit Bhattacharya
 
-I like working on questions where the data is messy and no single source tells the whole story. Most of my projects sit somewhere between quantitative finance, alternative data, and applied statistics.
+### Quantitative Finance · Golf Analytics · Applied Data Science
 
-By **alternative data**, I mean using imperfect sources together—cash flows, sensor logs, weather records, evapotranspiration, fund data, or flood thresholds—and being clear about what they can and cannot tell us.
+I build explainable models and decision tools from messy, multi-source data—financial cash flows, fund data, weather records, sensor telemetry, and environmental time series.
 
-I'm building this portfolio for quantitative-analyst roles and data-science graduate programs.
+My work is organized around three themes:
 
-## The main projects
+- **Quantitative finance:** ranking, scenario analysis, fees, risk, and investment decision support
+- **Golf analytics:** combining golf-domain knowledge with climate, geospatial, and performance data
+- **Applied data science:** data quality, regression, time-series analysis, forecasting, and visualization
 
-### [Private Markets Fund Comparison](https://fundperformanceframework.streamlit.app/)
+## Featured work
 
-My largest project. It compares private-market funds using dated cash flows, XIRR, investment multiples, scenarios, fee analysis, Monte Carlo simulation, and Excel checks. The point is not to predict returns. It is to show how assumptions about timing, fees, and terminal value change the decision.
+### Quantitative finance
 
-### [Mutual Fund Ranking Pipeline](https://github.com/jbhattac2323/mutual-fund-ranking-pipeline)
+#### [Private Markets Fund Comparison](https://fundperformanceframework.streamlit.app/)
 
-A small Python ranking engine built from a larger fund-finder idea. It filters funds, scores rolling return and Sharpe ratio within peer groups, handles ties, and explains why a fund was excluded. The public version uses synthetic data.
+An interactive decision framework for comparing private-market funds using dated cash flows, XIRR, investment multiples, fee analysis, deterministic scenarios, paired Monte Carlo simulation, and formula-linked Excel checks. It focuses on how assumptions about timing, fees, and terminal value change the decision—not on predicting returns.
 
-### [Golf Courses, Climate, and Water-Use Signals](https://github.com/jbhattac2323/golf-course-water-signals)
+#### [Mutual Fund Ranking Pipeline](https://github.com/JaikritBhattacharya/mutual-fund-ranking-pipeline)
 
-My clearest alternative-data project. I combined evapotranspiration, NOAA weather, land-cover comparisons, and two very different climates to study golf-course water-demand signals. ET is a useful proxy here, but it is not the same as measured irrigation.
+A tested Python engine that screens funds for eligibility, ranks them within peer groups using rolling-return and Sharpe-ratio percentile scores, handles ties, and records why a fund was excluded. The public version uses synthetic data.
 
-### [Regression and Time-Series Forecasting](https://github.com/jbhattac2323/regression-time-series-forecasting)
+### Golf analytics
 
-An R project covering regression diagnostics, transformations, model selection, seasonal decomposition, AR models, and forecast intervals.
+#### [Golf Courses, Climate, and Water-Use Signals](https://github.com/JaikritBhattacharya/golf-course-water-signals)
 
-## Other work
+An alternative-data study combining evapotranspiration, NOAA weather, land-cover comparisons, and two very different climates to examine golf-course water-demand signals. The analysis treats ET as a useful proxy—not as measured irrigation—and keeps that limitation visible.
 
-- [Environmental sensor quality control](https://github.com/jbhattac2323/environmental-sensor-quality-control)
-- [Flood-stage monitoring](https://github.com/jbhattac2323/flood-stage-monitoring)
-- [Climate, emissions, and space-data visualization](https://github.com/jbhattac2323/climate-emissions-visualization)
-- [Introductory Python projects](https://github.com/jbhattac2323/intro-python-course-projects)
-- [Full project index](https://github.com/jbhattac2323/quantitative-analysis-portfolio)
+### Applied data science
+
+#### [Regression and Time-Series Forecasting](https://github.com/JaikritBhattacharya/regression-time-series-forecasting)
+
+An R project covering transformations, regression diagnostics, model selection, seasonal decomposition, autoregressive models, and forecast intervals.
+
+#### [Environmental Sensor Quality Control](https://github.com/JaikritBhattacharya/environmental-sensor-quality-control)
+
+An R workflow that checks timestamps, sensor state, physical bounds, battery levels, and missingness before the data reaches a model or chart.
+
+#### [Flood-Stage Monitoring](https://github.com/JaikritBhattacharya/flood-stage-monitoring)
+
+An R analysis that joins river-gauge observations to site-specific thresholds, identifies first crossings, and measures major-stage exceedance.
+
+## More projects
+
+- [Climate, emissions, and space-data visualization](https://github.com/JaikritBhattacharya/climate-emissions-visualization)
+- [Quantitative analysis portfolio and full project index](https://github.com/JaikritBhattacharya/quantitative-analysis-portfolio)
+- [Introductory Python course projects](https://github.com/JaikritBhattacharya/intro-python-course-projects)
 
 ## How I work
 
 - Check the data before trusting the model.
 - Use comparison groups and independent sources when one dataset is not enough.
-- Keep assumptions visible.
-- Prefer methods I can explain and test.
-- Say when a result is exploratory instead of pretending it is causal.
+- Keep assumptions, exclusions, and limitations visible.
+- Prefer methods I can explain, test, and audit.
+- Label exploratory results honestly instead of presenting them as causal.
