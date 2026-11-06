@@ -18,6 +18,12 @@ My work is organized around three themes:
 
 An interactive decision framework for comparing private-market funds using dated cash flows, XIRR, investment multiples, fee analysis, deterministic scenarios, paired Monte Carlo simulation, and formula-linked Excel checks. It focuses on how assumptions about timing, fees, and terminal value change the decision—not on predicting returns.
 
+#### [Credit Fundamentals & Analytics](https://credit-fundamentals-analytics.onrender.com/)
+
+A credit analysis framework that automatically gathers SEC financials, computes peer comparisons, and flags accounting warning signs informed by *The Credit Investor’s Handbook*. Gradient-boosted machine learning identifies bankruptcy-related financial patterns, Shapley analysis explains the drivers, and Monte Carlo simulations test cash flow across 5,000 scenarios per case. Proposed-loan analysis covers repayment, contractual returns, and recovery, with core financial calculations exported to a formula-linked Excel workbook.
+
+[Explore the live framework](https://credit-fundamentals-analytics.onrender.com/) · Public technology-company training data · Private-company financial uploads
+
 #### [Mutual Fund Ranking Pipeline](https://github.com/JaikritBhattacharya/mutual-fund-ranking-pipeline)
 
 A tested Python engine that screens funds for eligibility, ranks them within peer groups using rolling-return and Sharpe-ratio percentile scores, handles ties, and records why a fund was excluded. The public version uses synthetic data.
