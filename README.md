@@ -30,6 +30,12 @@ A tested Python engine that screens funds for eligibility, ranks them within pee
 
 ### Golf analytics
 
+#### [HomeCourseAI — Geospatial Signals & Spatial Validation](docs/homecourseai.md)
+
+A Python research prototype that combines aerial imagery, terrain-response layers and user-reviewed course boundaries to map relative firm/soft tendencies. I built separate fairway, green and rough reference distributions, area-weighted standardized scores, independent Sentinel-2 moisture-consistency checks, and an interactive nine-hole demonstration with PDF yardage-book export.
+
+The quantitative focus is comparison-group design, spatial leakage controls, data provenance and model risk: a segmentation candidate that improved mean IoU was rejected when boundary quality deteriorated. The heatmap is an experimental environmental proxy; physical firmness accuracy has not yet been established.
+
 #### [Golf Courses, Climate, and Water-Use Signals](https://github.com/JaikritBhattacharya/golf-course-water-signals)
 
 An alternative-data study combining evapotranspiration, NOAA weather, land-cover comparisons, and two very different climates to examine golf-course water-demand signals. The analysis treats ET as a useful proxy—not as measured irrigation—and keeps that limitation visible.
